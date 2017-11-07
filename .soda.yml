@@ -18,7 +18,7 @@ stages:
     # 一般需要指定以下参数：
     # -p 转换平台类型，可以选择android或者iphone
     # 更多参数查看左边构建参数配置
-    - plugin_unity3d -p iphone
+    - plugin_unity3d -p android
     
     - plugin_fir --build "#{build}" --bundleId com.soda.snake --file bin/android/output.apk  --name Snake-Android --token "#{fir.token}" --type android --version "#{version}"
     
@@ -28,6 +28,7 @@ stages:
     # --iosName IPA文件名，默认是output.ipa
     # -v, --version xcode版本号 默认是 8.3.3 
     # 更多参数查看左边构建参数配置
+    - plugin_unity3d -p iphone
     
     - plugin_xcode
       
