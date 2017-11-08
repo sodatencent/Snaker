@@ -12,7 +12,7 @@ stages:
     # --username 您在unity3d上面注册的账户用户名
     # --password 您在unity3d上面注册的账户的密码
     # 更多参数查看左边构建参数配置
-    - plugin_unity3d_install -v 5.6.1f1 --username "#{unity.username}" --password "#{unity.password}" 
+    - plugin_unity3d_install -v 5.6.1f1 --username "dengxian.zhi@163.com" --password "#{unity.password}" 
 
     # 下一条指令是Unity转换成Xcode工程和产出Android APK
     # 一般需要指定以下参数：
