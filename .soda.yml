@@ -28,7 +28,7 @@ stages:
     # --iosName IPA文件名，默认是output.ipa
     # -v, --version xcode版本号 默认是 8.3.3 
     # 更多参数查看左边构建参数配置
-    - plugin_unity3d -p iphone --enableBitCode false
+    - plugin_unity3d -p iphone
     
     - plugin_xcode
       
