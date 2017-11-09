@@ -30,7 +30,7 @@ stages:
     # 更多参数查看左边构建参数配置
     - plugin_unity3d -p iphone
     
-    - plugin_xcode -v 7.2
+    - plugin_xcode -v 7.3
       
     
     # 下一条指令开启IOS签名，这个步骤需要您先在证书管理中上传您的个人证书
